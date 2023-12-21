@@ -8,7 +8,7 @@ local modules = lualine_require.lazy_require {
   color_utils = 'lualine.utils.color_utils',
 }
 
-local section_highlight_map = { w = 'd' x = 'c', y = 'b', z = 'a' }
+local section_highlight_map = { w = 'd', x = 'c', y = 'b', z = 'a' }
 local active_theme = nil
 local theme_hls = {}
 local create_cterm_colors = false
