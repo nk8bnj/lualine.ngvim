@@ -20,7 +20,8 @@ return {
   normal = {
     a = { bg = colors.green, fg = colors.black, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.green },
-    d = { bg = colors.gray, fg = colors.light_gray },
+    c = { bg = colors.gray, fg = colors.light_gray },
+    d = { bg = colors.gray, fg = colors.red },
   },
   insert = {
     a = { bg = colors.blue, fg = colors.black, gui = 'bold' },
