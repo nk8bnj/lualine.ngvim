@@ -21,36 +21,30 @@ return {
     a = { bg = colors.green, fg = colors.black, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.green },
     c = { bg = colors.gray, fg = colors.light_gray },
-    d = { bg = colors.gray, fg = colors.red },
   },
   insert = {
     a = { bg = colors.blue, fg = colors.black, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.blue },
     c = { bg = colors.gray, fg = colors.light_gray },
-    d = { bg = colors.gray, fg = colors.red },
   },
   visual = {
     a = { bg = colors.purple, fg = colors.black, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.purple },
     c = { bg = colors.gray, fg = colors.light_gray },
-    d = { bg = colors.gray, fg = colors.red },
   },
   replace = {
     a = { bg = colors.red, fg = colors.black, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.red },
     c = { bg = colors.gray, fg = colors.light_gray },
-    d = { bg = colors.gray, fg = colors.red },
   },
   command = {
     a = { bg = colors.yellow, fg = colors.black, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.yellow },
     c = { bg = colors.gray, fg = colors.light_gray },
-    d = { bg = colors.gray, fg = colors.red },
   },
   inactive = {
     a = { bg = colors.gray, fg = colors.white, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.white },
     c = { bg = colors.gray, fg = colors.light_gray },
-    d = { bg = colors.gray, fg = colors.red },
   },
 }
