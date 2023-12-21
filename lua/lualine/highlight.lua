@@ -117,10 +117,10 @@ function M.highlight(name, foreground, background, gui, link)
     background = sanitize_color(background)
     gui = (gui ~= nil and gui ~= '') and gui or 'None'
     if
-      loaded_highlights[name]
-      and loaded_highlights[name].fg == foreground
-      and loaded_highlights[name].bg == background
-      and loaded_highlights[name].gui == gui
+        loaded_highlights[name]
+        and loaded_highlights[name].fg == foreground
+        and loaded_highlights[name].bg == background
+        and loaded_highlights[name].gui == gui
     then
       return -- color is already defined why are we doing this anyway ?
     end
@@ -283,10 +283,10 @@ local function get_default_component_color(hl_name, mode, section, color, option
   end
 
   if
-    options.color
-    and options.color_highlight
-    and options.color_highlight.name
-    and options.color_highlight.name .. '_' .. mode ~= hl_name
+      options.color
+      and options.color_highlight
+      and options.color_highlight.name
+      and options.color_highlight.name .. '_' .. mode ~= hl_name
   then
     apply_default(options.color, options.color_highlight.name .. '_' .. mode)
   end
@@ -404,7 +404,7 @@ function M.component_format_highlight(highlight, is_focused)
       if not highlight.no_default and not (color.fg and color.bg) then
         hl_name = append_mode(highlight.name, is_focused)
         color =
-          get_default_component_color(hl_name, M.get_mode_suffix():sub(2), highlight.section, color, highlight.options)
+            get_default_component_color(hl_name, M.get_mode_suffix():sub(2), highlight.section, color, highlight.options)
       end
       M.highlight(hl_name, color.fg, color.bg, color.gui, color.link)
       return '%#' .. hl_name .. '#', color
