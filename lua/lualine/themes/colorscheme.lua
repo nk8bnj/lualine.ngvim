@@ -12,12 +12,13 @@ local colors = {
   green  = '#97C278',
   white  = '#C9C8C9',
   black  = '#2E353B',
+  dark = '#363F45',
 }
 
 return {
   normal = {
     a = { bg = colors.green, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.red, fg = colors.white },
+    b = { bg = colors.dark, fg = colors.green },
     c = { bg = colors.gray, fg = colors.white },
   },
   insert = {
