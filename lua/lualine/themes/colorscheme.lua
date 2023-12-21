@@ -4,6 +4,7 @@
 -- stylua: ignore
 local colors = {
   gray   = '#3B454C',
+  light_gray = '#849288',
   orange = '#ff9640',
   purple = '#C778DE',
   red    = '#ec5f67',
@@ -19,31 +20,31 @@ return {
   normal = {
     a = { bg = colors.green, fg = colors.black, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.green },
-    c = { bg = colors.red, fg = colors.green },
+    c = { bg = colors.gray, fg = colors.light_gray },
   },
   insert = {
     a = { bg = colors.blue, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.lightgray, fg = colors.blue },
+    b = { bg = colors.gray, fg = colors.blue },
     c = { bg = colors.gray, fg = colors.white },
   },
   visual = {
     a = { bg = colors.purple, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.lightgray, fg = colors.purple },
+    b = { bg = colors.gray, fg = colors.purple },
     c = { bg = colors.gray, fg = colors.white },
   },
   replace = {
     a = { bg = colors.red, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.lightgray, fg = colors.red },
+    b = { bg = colors.gray, fg = colors.red },
     c = { bg = colors.gray, fg = colors.white },
   },
   command = {
     a = { bg = colors.yellow, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.lightgray, fg = colors.yellow },
+    b = { bg = colors.gray, fg = colors.yellow },
     c = { bg = colors.gray, fg = colors.white },
   },
   inactive = {
     a = { bg = colors.gray, fg = colors.white, gui = 'bold' },
-    b = { bg = colors.lightgray, fg = colors.white },
+    b = { bg = colors.gray, fg = colors.white },
     c = { bg = colors.gray, fg = colors.white },
   },
 }
