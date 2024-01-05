@@ -9,7 +9,7 @@ local colors = {
   purple = '#b26eb5',
   red = '#ec5f67',
   red2 = '#EDBEBE',
-  dark-red = '#EA999C',
+  dark_red = '#EA999C',
   yellow = '#EBAD34',
   blue   = '#819CDA',
   green  = '#97C278',
@@ -40,8 +40,8 @@ return {
     c = { bg = colors.black, fg = colors.light_gray },
   },
   command = {
-    a = { bg = colors.dark-red, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.black, fg = colors.dark-red },
+    a = { bg = colors.dark_red, fg = colors.black, gui = 'bold' },
+    b = { bg = colors.black, fg = colors.dark_red },
     c = { bg = colors.black, fg = colors.light_gray },
   },
   inactive = {
