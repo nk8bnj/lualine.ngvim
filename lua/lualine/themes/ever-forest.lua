@@ -16,7 +16,7 @@ local colors = {
   black      = '#2E353B',
   dark       = '#363F45',
   -- dark_light = '#404D54',
-  dark_light = '#3B454C',
+  dark_light = '#3E4950',
 }
 
 return {
