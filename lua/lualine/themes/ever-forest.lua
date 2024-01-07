@@ -18,7 +18,7 @@ local colors = {
 
 return {
   normal = {
-    a = { bg = colors.gray, fg = colors.green, gui = 'bold' },
+    a = { bg = colors.light_gray, fg = colors.green, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.green },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
