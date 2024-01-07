@@ -14,11 +14,12 @@ local colors = {
   white      = '#C9C8C9',
   black      = '#2E353B',
   dark       = '#363F45',
+  dark2      = '#30393F',
 }
 
 return {
   normal = {
-    a = { bg = colors.light_gray, fg = colors.green, gui = 'bold' },
+    a = { bg = colors.dark2, fg = colors.green, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.green },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
