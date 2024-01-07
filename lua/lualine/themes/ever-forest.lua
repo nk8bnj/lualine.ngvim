@@ -3,8 +3,8 @@
 -- Credit itchyny, jackno (lightline)
 -- stylua: ignore
 local colors = {
-  -- gray       = '#3B454C',
-  gray       = '#343F44',
+  gray       = '#3B454C',
+  -- gray       = '#343F44',
   light_gray = '#8B998F',
   orange     = '#ff9640',
   purple     = '#C778DE',
@@ -20,27 +20,27 @@ local colors = {
 
 return {
   normal = {
-    a = { bg = colors.dark_light, fg = colors.green, gui = 'bold' },
+    a = { bg = colors.gray, fg = colors.green, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.green },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   insert = {
-    a = { bg = colors.dark_light, fg = colors.blue, gui = 'bold' },
+    a = { bg = colors.gray, fg = colors.blue, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.blue },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   visual = {
-    a = { bg = colors.dark_light, fg = colors.purple, gui = 'bold' },
+    a = { bg = colors.gray, fg = colors.purple, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.purple },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   replace = {
-    a = { bg = colors.dark_light, fg = colors.red, gui = 'bold' },
+    a = { bg = colors.gray, fg = colors.red, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.red },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   command = {
-    a = { bg = colors.dark_light, fg = colors.yellow, gui = 'bold' },
+    a = { bg = colors.gray, fg = colors.yellow, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.yellow },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
