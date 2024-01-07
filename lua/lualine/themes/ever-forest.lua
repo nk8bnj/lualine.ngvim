@@ -19,27 +19,27 @@ local colors = {
 
 return {
   normal = {
-    a = { bg = colors.dark2, fg = colors.green, gui = 'bold' },
+    a = { bg = colors.gray, fg = colors.green, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.green },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   insert = {
-    a = { bg = colors.blue, fg = colors.black, gui = 'bold' },
+    a = { bg = colors.gray, fg = colors.blue, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.blue },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   visual = {
-    a = { bg = colors.purple, fg = colors.black, gui = 'bold' },
+    a = { bg = colors.gray, fg = colors.purple, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.purple },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   replace = {
-    a = { bg = colors.red, fg = colors.black, gui = 'bold' },
+    a = { bg = colors.gray, fg = colors.red, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.red },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   command = {
-    a = { bg = colors.yellow, fg = colors.black, gui = 'bold' },
+    a = { bg = colors.gray, fg = colors.yellow, gui = 'bold' },
     b = { bg = colors.gray, fg = colors.yellow },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
