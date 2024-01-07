@@ -7,9 +7,11 @@ local colors = {
   light_gray = '#8B998F',
   orange = '#ff9640',
   purple = '#b26eb5',
-  red    = '#ec5f67',
+  red = '#ec5f67',
+  red2 = '#EDBEBE',
+  dark_red = '#EA999C',
   yellow = '#EBAD34',
-  blue   = '#61AFEE',
+  blue   = '#819CDA',
   green  = '#97C278',
   white  = '#C9C8C9',
   black  = '#202330',
@@ -28,8 +30,8 @@ return {
     c = { bg = colors.black, fg = colors.light_gray },
   },
   visual = {
-    a = { bg = colors.purple, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.black, fg = colors.purple },
+    a = { bg = colors.red2, fg = colors.black, gui = 'bold' },
+    b = { bg = colors.black, fg = colors.red2 },
     c = { bg = colors.black, fg = colors.light_gray },
   },
   replace = {
@@ -38,8 +40,8 @@ return {
     c = { bg = colors.black, fg = colors.light_gray },
   },
   command = {
-    a = { bg = colors.yellow, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.black, fg = colors.yellow },
+    a = { bg = colors.dark_red, fg = colors.black, gui = 'bold' },
+    b = { bg = colors.black, fg = colors.dark_red },
     c = { bg = colors.black, fg = colors.light_gray },
   },
   inactive = {
