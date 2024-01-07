@@ -18,9 +18,9 @@ local colors = {
 
 return {
   normal = {
-    a = { bg = colors.gray, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.green, fg = colors.green },
-    c = { bg = colors.green, fg = colors.light_gray },
+    a = { bg = colors.gray, fg = colors.green, gui = 'bold' },
+    b = { bg = colors.gray, fg = colors.green },
+    c = { bg = colors.gray, fg = colors.light_gray },
   },
   insert = {
     a = { bg = colors.blue, fg = colors.black, gui = 'bold' },
