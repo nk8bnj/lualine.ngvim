@@ -4,20 +4,16 @@
 -- stylua: ignore
 local colors = {
   gray       = '#343F44',
-  -- gray       = '#3C464D',
   light_gray = '#8B998F',
   orange     = '#ff9640',
   purple     = '#D862FC',
   red        = '#ec5f67',
   yellow     = '#FFB217',
-  -- blue       = '#61AFEE',
   blue       = '#2C9AF2',
-  -- green      = '#88BB64',
-  green      = '#70BF38',
+  green      = '#6DBA80',
   white      = '#C9C8C9',
   black      = '#2E353B',
   dark       = '#363F45',
-  -- dark_light = '#3E4950',
   dark_light = '#424D55',
 }
 
