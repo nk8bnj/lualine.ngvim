@@ -97,7 +97,7 @@ local function apply_configuration(config_table)
     for section_name, section in pairs(config_table[section_group_name]) do
       if section_name == 'refresh' then
         config[section_group_name][section_name] =
-          vim.tbl_deep_extend('force', config[section_group_name][section_name], utils.deepcopy(section))
+            vim.tbl_deep_extend('force', config[section_group_name][section_name], utils.deepcopy(section))
       else
         config[section_group_name][section_name] = utils.deepcopy(section)
       end
