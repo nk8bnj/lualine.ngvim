@@ -9,8 +9,8 @@ local colors = {
   purple     = '#C676CE',
   red        = '#ec5f67',
   yellow     = '#E6B550',
-  blue       = '#3ABBB6',
-  green      = '#6EBA80',
+  blue       = '#489FD2',
+  green      = '#51BF6B',
   white      = '#C9C8C9',
   black      = '#2E353B',
   dark       = '#363F45',
@@ -24,8 +24,8 @@ return {
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   insert = {
-    a = { bg = colors.white, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.gray, fg = colors.white },
+    a = { bg = colors.blue, fg = colors.black, gui = 'bold' },
+    b = { bg = colors.gray, fg = colors.blue },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   visual = {
