@@ -3,7 +3,8 @@
 -- Credit itchyny, jackno (lightline)
 -- stylua: ignore
 local colors = {
-  gray       = '#343F44',
+  -- gray       = '#343F44',
+  gray       = '#3B454C',
   light_gray = '#8B998F',
   orange     = '#ff9640',
   purple     = '#D696DB',
