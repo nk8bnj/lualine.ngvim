@@ -11,8 +11,8 @@ local colors = {
   red        = '#ec5f67',
   yellow     = '#EBBB5C',
   blue       = '#61B8AD',
-  -- green      = '#A2C06A',
   green      = '#93C570',
+  green_fg   = '#7ECA48',
   white      = '#C9C8C9',
   black      = '#2E353B',
   dark       = '#363F45',
@@ -23,7 +23,7 @@ local colors = {
 return {
   normal = {
     a = { bg = colors.green, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.bg, fg = colors.green },
+    b = { bg = colors.bg, fg = colors.green_fg },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   insert = {
