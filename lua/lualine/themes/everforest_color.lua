@@ -22,27 +22,27 @@ local colors = {
 return {
   normal = {
     a = { bg = colors.green, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.bg, fg = colors.green },
+    b = { bg = colors.light_gray, fg = colors.green },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   insert = {
     a = { bg = colors.blue, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.bg, fg = colors.blue },
+    b = { bg = colors.light_gray, fg = colors.blue },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   visual = {
     a = { bg = colors.purple, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.bg, fg = colors.purple },
+    b = { bg = colors.light_gray, fg = colors.purple },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   replace = {
     a = { bg = colors.red, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.bg, fg = colors.red },
+    b = { bg = colors.light_gray, fg = colors.red },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   command = {
     a = { bg = colors.yellow, fg = colors.black, gui = 'bold' },
-    b = { bg = colors.bg, fg = colors.yellow },
+    b = { bg = colors.light_gray, fg = colors.yellow },
     c = { bg = colors.gray, fg = colors.light_gray },
   },
   inactive = {
